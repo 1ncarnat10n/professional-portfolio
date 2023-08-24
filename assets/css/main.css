@@ -3,10 +3,6 @@ html, body {
     padding: 0;
 }
 
-* {
-    outline: red dashed 1px;
-}
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +12,39 @@ header {
     color: #fff;
 }
 
-header a {
+header nav a {
     color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header:hover {
+    background: red;
+    cursor: progress;
+}
+
+header:hover nav a {
+    color: blue;
+}
+
+header nav a:hover {
+    background-color: red;
+}
+
+header nav a:focus {
+    font-size: 200%;
+    outline: red dashed 2px;
+}
+
+header nav a:active {
+    background-color: black;
+    color: yellow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1::before, 
+h1::after {
+    content: ' * ';
 }

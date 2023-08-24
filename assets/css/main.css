@@ -40,6 +40,10 @@ header nav a:active {
     color: yellow;
 }
 
+header nav a:visited {
+
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -48,3 +52,5 @@ h1::before,
 h1::after {
     content: ' * ';
 }
+
+

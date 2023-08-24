@@ -1,24 +1,46 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
 }
 
-* {
-    outline: red dashed 1px;
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    background-color: lightblue;
 }
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #3e3e3e;
-    color: #fff;
+    height: 115px;
+    padding-top: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 
 header a {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+}
+
+header nav {
+    float: right;
+    margin-right: 100px;
+    padding-top: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+  
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: aquamarine;
+    background-color: gray;
 }
 
 header:hover {

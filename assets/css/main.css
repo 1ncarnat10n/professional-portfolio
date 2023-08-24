@@ -3,6 +3,10 @@ html, body {
     padding: 0;
 }
 
+* {
+    outline: red dashed 1px;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +16,7 @@ header {
     color: #fff;
 }
 
-header nav a {
+header a {
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -48,5 +52,3 @@ h1::before,
 h1::after {
     content: ' * ';
 }
-
-

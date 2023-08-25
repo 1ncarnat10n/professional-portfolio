@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
-<body>
 
+<body>
     <header>
         <h1>
             William Tsai
@@ -19,91 +19,109 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#aboutme">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
                     <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact-me">Contact</a>
                 </li>
                 <li>
-                    <a href="https://docs.google.com/document/d/1wgAikUQ6r2HL0d-Q0x0ophmep5IBgdb5">Resume</a>
+                    <a href="https://www.linkedin.com/in/william-tsai-slo/">Resume</a>
                 </li>
             </ul>
         </nav>
-
-        <div class="banner">
-            <h2>Aspiring Web Designer and Programmer</h2>
-        </div>
-
     </header>
+
+    <section class="banner">
+        <h2>Aspiring Web Developer</h2>
+    </section>
+
     <main>
         <!-- About Me section -->
-        <section class="aboutme">
-            <h2 class="list">About<br>Me</h2>
-            <article class="aboutText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam reprehenderit, accusantium obcaecati odit
-              pariatur explicabo mollitia laudantium suscipit autem recusandae praesentium aut deserunt architecto eligendi
-              quas dicta necessitatibus perferendis ipsum?
-              <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex porro aspernatur voluptas tenetur eaque. Numquam
-              iusto adipisci veritatis recusandae enim in saepe! Consectetur hic illum maiores ipsum architecto temporibus
-              atque?
-            </article>
-          </section>
-
-        <!-- Work section -->
-        <section class="work">
-            <h2 class="list">Work</h2>
-            <section class="workGrid">
-            <a href="https://github.com/1ncarnat10n/horiseon" target="_blank" id="featuredProject" class="heroGrid">
-                <div class="projectHeading">
-                <h2>Horiseon - Refactoring</h2>
-                <h3>HTML / CSS</h3>
-                </div>
-            </a>
-            <a href="https://1ncarnat10n.github.io/prework-study-guide/" target="_blank" id="secondProject" class="heroGrid">
-                <div class="projectHeading">
-                <h2>Prework Study Guide</h2>
-                <h3>HTML / CSS</h3>
-                </div>
-            </a>
-            <a href="" target="_blank" id="thirdProject" class="heroGrid">
-                <div class="projectHeading">
-                <h2>Third Project</h2>
-                <h3>HTML / CSS</h3>
-                </div>
-            </a>
-            <a href="" target="_blank" id="fourthProject" class="heroGrid">
-                <div class="projectHeading">
-                <h2>Fourth Project</h2>
-                <h3>HTML / CSS</h3>
-                </div>
-            </a>
-            <a href="" target="_blank" id="fifthProject" class="heroGrid">
-                <div class="projectHeading">
-                <h2>Fifth Project</h2>
-                <h3>HTML / CSS</h3>
-                </div>
-            </a>
-            </section>
+        <section id="about-me" class="section">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+    
+            <!-- Section paragraph w/photo -->
+            <div class="flex-row">
+                <img src="" class="photo" />
+                <p>
+                    Hello! My name is William Tsai! These are the works I have completed during my time attending UCLA's coding bootcamp. Enjoy!
+                </p>
+            </div>
         </section>
 
+        <!-- Work boxes -->
+        <section id="work" class="section">
+            <div class="title2">
+              <h2>Work</h2>
+            </div>
+    
+            <div class="flex-row2">
+                <!-- Horiseon -->
+                <div class="main-project">
+                    <div class="horiseon">
+                        <p><a href="https://github.com/1ncarnat10n/horiseon">Horiseon Code Refactor</a><br/><font size="-0.5">HTML / CSS</font></p>
+                    </div>
+                </div>
+                
+                <!-- Other Projects -->
+                <div class="other-projects">
+                    <!-- Study Guide -->
+                    <div class="study-guide">
+                      <p><a href="https://github.com/1ncarnat10n/prework-study-guide">Prework Study Guide</a><br/><font size="-0.5">HTML / CSS</font></p>
+                    </div>
+    
+                    <!-- Future Project 1 -->
+                    <div class="project-1">
+                        <p><a href="">Project 1</a><br/><font size="-0.5">TBD</font></p>
+                    </div>
+    
+                    <!-- Future Project 2 -->
+                    <div class="project-2">
+                        <p>Project 2<br/><font size="-0.5">TBD</font></p>
+                    </div>
+    
+                    <!-- Future Project 3 -->
+                    <div class="project-3">
+                        <p>Project 3<br/><font size="-0.5">TBD</font></p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
         <!-- Contact section -->
-        <section class="contact">
-            <h2 class="list">Contact<br>Me</h2>
-            <section class="contactLinks">
-                <a href="">1-(626)-417-5076</a>
-
-                <a href="">tsaiwilliam888@gmail.com</a>
-
-                <a href="https://www.linkedin.com/in/william-tsai-slo/" target="_blank">LinkedIn</a>
-      
-                <a href="https://github.com/1ncarnat10n" target="_blank">GitHub</a>
-            </section>
+        <section id="contact-me" class="section">
+            <div class="title">
+              <h2>Contact Me</h2>
+            </div>
+    
+            <div class="flex-row">
+                <div class="phone">
+                    <a href="tel:626-417-5076">Phone</a>
+                </div>
+    
+                <div class="email">
+                    <a href="mailto:tsaiwilliam888@gmail.com">Email</a>
+                </div>
+    
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/william-tsai-slo/">LinkedIn</a>
+                </div>
+    
+                <div class="github">
+                    <a href="https://github.com/1ncarnat10n">GitHub</a>
+                </div>
+          </div>
           </section>
     </main>
 
+    <!-- Footer -->
+    <footer>
+        <h2>Created by William Tsai</h2>
+    </footer>
 </body>
 </html>

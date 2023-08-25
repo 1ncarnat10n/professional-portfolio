@@ -1,122 +1,320 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
-    background-color: lightblue;
 }
 
 header {
-    height: 115px;
-    padding-top: 15px;
-    font-family: 'Oswald', sans-serif;
+    padding: 20px 35px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: white;
 }
 
 header a {
+    text-decoration: none;
     color: white;
 }
 
 header nav {
-    float: right;
-    margin-right: 100px;
-    padding-top: 25px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
+    margin: 7px 0;
 }
 
 header nav ul {
-    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
   
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
 }
 
-h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: black;
-    background-color: gray;
+header nav ul li a:hover {
+    color: darkred;
+    border-radius: 15px;
+}  
+
+footer {
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+footer h2 {
+    color: darkblue;
+    font-size: 30px;
+    margin: 0;
 }
 
-nav a {
-    text-underline-offset: 12px;
+section {
+    padding: 60px;
 }
 
 .banner {
-    height: 140px;
-    width: 100%;
-    padding: 0px;
-    margin-top: 20px;
-    border-radius: 0%;
-    background-position: top;
-    background-color: black;
+    /* background-image:  */
     background-size: cover;
-  }
-  
+    background-attachment: fixed;
+    background-position: 80%;    
+}
+
 .banner h2 {
-    display: inline-block;
-    position: relative;
-    left: 90%;
-    top: 45%;
-    transform: translateX(-100%);
-    color: white;
+    font-style: normal;
+    font-size: 30px;
+    color: darkblue;
+    float: right;
+    background-color: white;
+}
+
+.section {
     background-color: gray;
-    padding: 5px;
-}
-
-main {
-    margin-top: 150px;
-}
-
-section h2 {
-    font-size: 45px;
-    text-align: right;
-    font-weight: bold;
-}
-
-.aboutme {
     display: flex;
-    flex: 25%;
-    flex-wrap: nowrap;
-    padding-top: 50px;
-    padding-left: 90px;
-    padding-right: 50px;
-    padding-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* header:hover {
-    background: red;
-    cursor: progress;
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: white;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: lightblue solid 3px;
 }
 
-header:hover nav a {
-    color: blue;
+.title2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: white;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 1250px;
 }
 
-header nav a:hover {
-    background-color: red;
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
 }
 
-header nav a:focus {
-    font-size: 200%;
-    outline: red dashed 2px;
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    border-left: lightblue solid 3px;
 }
 
-header nav a:active {
-    background-color: black;
-    color: yellow;
+.photo {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+.section p, .section a {
+    line-height: 1.5;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px 0 15px;
 }
 
-h1::before,
-h1::after {
-    content: ' * ';
-} */
+.flex-row2 p {
+    display: inline-block;
+    text-align: start;
+    background-color: darkblue;
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+}
+
+.other-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+.horiseon {
+    /* background-image:  */
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border: darkblue 5px solid;
+    position: relative;
+}
+
+/* Main Project Hover Styling */
+.horiseon:hover {
+    opacity: 75%;
+}
+
+/* LED Wall Image Styling */
+.study-guide {
+    /* background-image:  */
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: darkblue 5px solid;
+    position: relative;
+}
+
+/* LED Wall Hover Styling */
+.study-guide:hover {
+    opacity: 75%;
+}
+
+/* Calculator Image Styling */
+.project-1 {
+    /* background-image:  */
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: darkblue 5px solid;
+    position: relative; 
+}
+
+/* Calculator Hover Styling */
+.project-1:hover {
+    opacity: 75%;
+}
+
+/* Pastel Puzzle Image Styling */
+.project-2 {
+    /* background-image:  */
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: darkblue 5px solid;
+    position: relative; 
+}
+
+/* Pastel Puzzle Hover Styling */
+.project-2:hover {
+    opacity: 75%;
+}
+
+/* Run Buddy Image Styling */
+.project-3 {
+    /* background-image:  */
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: darkblue 5px solid;
+    position: relative; 
+}
+
+/* Run Buddy Hover Styling */
+.project-3:hover {
+    opacity: 75%;
+}
+
+/* query for laptops */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .title {
+        width: 20%;
+    }
+}
+
+/* query for tablets */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+}
+  
+/* query for phones */
+@media screen and (max-width: 575px) {
+    .title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
+}

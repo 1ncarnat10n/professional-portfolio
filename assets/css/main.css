@@ -10,7 +10,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: darkblue;
+    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -60,7 +60,7 @@ footer {
 }
   
 footer h2 {
-    color: darkblue;
+    color: black;
     font-size: 30px;
     margin: 0;
 }
@@ -79,7 +79,7 @@ section {
 .banner h2 {
     font-style: normal;
     font-size: 30px;
-    color: darkblue;
+    color: black;
     float: right;
     background-color: white;
 }
@@ -195,12 +195,10 @@ section {
     position: relative;
 }
 
-/* Main Project Hover Styling */
 .horiseon:hover {
     opacity: 75%;
 }
 
-/* LED Wall Image Styling */
 .study-guide {
     /* background-image:  */
     background-size: cover;
@@ -212,12 +210,10 @@ section {
     position: relative;
 }
 
-/* LED Wall Hover Styling */
 .study-guide:hover {
     opacity: 75%;
 }
 
-/* Calculator Image Styling */
 .project-1 {
     /* background-image:  */
     background-size: cover;
@@ -229,12 +225,10 @@ section {
     position: relative; 
 }
 
-/* Calculator Hover Styling */
 .project-1:hover {
     opacity: 75%;
 }
 
-/* Pastel Puzzle Image Styling */
 .project-2 {
     /* background-image:  */
     background-size: cover;
@@ -246,12 +240,10 @@ section {
     position: relative; 
 }
 
-/* Pastel Puzzle Hover Styling */
 .project-2:hover {
     opacity: 75%;
 }
 
-/* Run Buddy Image Styling */
 .project-3 {
     /* background-image:  */
     background-size: cover;
@@ -263,7 +255,6 @@ section {
     position: relative; 
 }
 
-/* Run Buddy Hover Styling */
 .project-3:hover {
     opacity: 75%;
 }
@@ -291,7 +282,8 @@ section {
         font-size: 20px;
     }
     
-    footer h2, footer div {
+    footer h2, 
+    footer div {
         text-align: center;
         width: 100%;
     }

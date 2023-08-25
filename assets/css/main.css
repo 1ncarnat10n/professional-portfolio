@@ -47,7 +47,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: darkred;
+    color: red;
     border-radius: 15px;
 }  
 

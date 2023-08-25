@@ -39,11 +39,57 @@ header nav ul li {
 h1 {
     display: inline-block;
     font-size: 48px;
-    color: aquamarine;
+    color: black;
     background-color: gray;
 }
 
-header:hover {
+nav a {
+    text-underline-offset: 12px;
+}
+
+.banner {
+    height: 140px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+    border-radius: 0%;
+    background-position: top;
+    background-color: black;
+    background-size: cover;
+  }
+  
+.banner h2 {
+    display: inline-block;
+    position: relative;
+    left: 90%;
+    top: 45%;
+    transform: translateX(-100%);
+    color: white;
+    background-color: gray;
+    padding: 5px;
+}
+
+main {
+    margin-top: 150px;
+}
+
+section h2 {
+    font-size: 45px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.aboutme {
+    display: flex;
+    flex: 25%;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+/* header:hover {
     background: red;
     cursor: progress;
 }
@@ -73,4 +119,4 @@ h1, h2, h3, h4, h5, h6 {
 h1::before,
 h1::after {
     content: ' * ';
-}
+} */

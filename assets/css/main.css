@@ -8,7 +8,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header */
 header {
+    font-family: 'Oswald', sans-serif;
     padding: 20px 35px;
     background-color: lightblue;
     display: flex;
@@ -51,6 +53,7 @@ header nav ul li a:hover {
     border-radius: 15px;
 }  
 
+/* footer */
 footer {
     padding: 40px 35px;
     display: flex;
@@ -69,8 +72,9 @@ section {
     padding: 60px;
 }
 
+/* banner photo */
 .banner {
-    /* background-image:  */
+    background-image: url("../images/banner.webp");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;    
@@ -84,6 +88,7 @@ section {
     background-color: white;
 }
 
+/* sections */
 .section {
     background-color: gray;
     display: flex;
@@ -92,6 +97,7 @@ section {
     align-items: center;
 }
 
+/* titles */
 .title {
     display: flex;
     flex-wrap: wrap;
@@ -118,6 +124,7 @@ section {
     height: 1250px;
 }
 
+/* flex row for text and contact info */
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -127,6 +134,7 @@ section {
     width: 90%;
 }
 
+/* flex row for boxes */
 .flex-row2 {
     display: flex;
     flex-direction: column;
@@ -138,12 +146,14 @@ section {
     border-left: lightblue solid 3px;
 }
 
+/* personal picture */
 .photo {
     width: 10%;
     height: auto;
     padding-left: 1%;
 }
 
+/* text */
 .section p, .section a {
     line-height: 1.5;
     color: white;
@@ -154,6 +164,7 @@ section {
     padding: 0 15px 0 15px;
 }
 
+/* box border and text */
 .flex-row2 p {
     display: inline-block;
     text-align: start;
@@ -186,7 +197,7 @@ section {
 }
 
 .horiseon {
-    /* background-image:  */
+    background-image: url("../images/01-html-css-git-homework-demo.png");
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -200,7 +211,7 @@ section {
 }
 
 .study-guide {
-    /* background-image:  */
+    background-image: url("../images/prework-study-guide.png");
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -215,7 +226,7 @@ section {
 }
 
 .project-1 {
-    /* background-image:  */
+    background-image: url("../images/coming-soon.jpg");
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -230,7 +241,7 @@ section {
 }
 
 .project-2 {
-    /* background-image:  */
+    background-image: url("../images/coming-soon.jpg");
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -245,7 +256,7 @@ section {
 }
 
 .project-3 {
-    /* background-image:  */
+    background-image: url("../images/coming-soon.jpg");
     background-size: cover;
     width: 47.5%;
     height: 300px;

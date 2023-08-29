@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* header */
+/* Header section */
 header {
     font-family: 'Oswald', sans-serif;
     padding: 20px 35px;
@@ -53,7 +53,7 @@ header nav ul li a:hover {
     border-radius: 15px;
 }  
 
-/* footer */
+/* Footer section */
 footer {
     padding: 40px 35px;
     display: flex;
@@ -72,7 +72,7 @@ section {
     padding: 60px;
 }
 
-/* banner photo */
+/* Banner photo */
 .banner {
     background-image: url("../images/banner.webp");
     background-size: cover;
@@ -88,7 +88,7 @@ section {
     background-color: white;
 }
 
-/* sections */
+/* Sections of the page */
 .section {
     background-color: gray;
     display: flex;
@@ -97,7 +97,7 @@ section {
     align-items: center;
 }
 
-/* titles */
+/* Titles */
 .title {
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +124,7 @@ section {
     height: 1250px;
 }
 
-/* flex row for text and contact info */
+/* Flex row for text and contact info */
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -134,7 +134,7 @@ section {
     width: 90%;
 }
 
-/* flex row for boxes */
+/* Flex row for boxes */
 .flex-row2 {
     display: flex;
     flex-direction: column;
@@ -146,14 +146,14 @@ section {
     border-left: lightblue solid 3px;
 }
 
-/* personal picture */
+/* Personal picture */
 .photo {
     width: 10%;
     height: auto;
     padding-left: 1%;
 }
 
-/* text */
+/* Text elements */
 .section p, .section a {
     line-height: 1.5;
     color: white;
@@ -164,7 +164,7 @@ section {
     padding: 0 15px 0 15px;
 }
 
-/* box border and text */
+/* Box borders and text */
 .flex-row2 p {
     display: inline-block;
     text-align: start;
@@ -176,6 +176,7 @@ section {
     left: 0%;
 }
 
+/* Main project box */
 .main-project {
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +187,7 @@ section {
     width: 100%;
 }
 
+/* Other project boxes */
 .other-projects {
     display: flex;
     flex-wrap: wrap;
@@ -196,6 +198,7 @@ section {
     width: 100%;
 }
 
+/* Horiseon Project */
 .horiseon {
     background-image: url("../images/01-html-css-git-homework-demo.png");
     background-size: cover;
@@ -210,6 +213,7 @@ section {
     opacity: 75%;
 }
 
+/* Prework Study Guide Project */
 .study-guide {
     background-image: url("../images/prework-study-guide.png");
     background-size: cover;
@@ -225,6 +229,7 @@ section {
     opacity: 75%;
 }
 
+/* Project 1 */
 .project-1 {
     background-image: url("../images/coming-soon.jpg");
     background-size: cover;
@@ -240,6 +245,7 @@ section {
     opacity: 75%;
 }
 
+/* Project 2 */
 .project-2 {
     background-image: url("../images/coming-soon.jpg");
     background-size: cover;
@@ -255,6 +261,7 @@ section {
     opacity: 75%;
 }
 
+/* Project 3 */
 .project-3 {
     background-image: url("../images/coming-soon.jpg");
     background-size: cover;
@@ -270,7 +277,7 @@ section {
     opacity: 75%;
 }
 
-/* query for laptops */
+/* Query for laptops */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -304,14 +311,14 @@ section {
     }
 }
 
-/* query for tablets */
+/* Query for tablets */
 @media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
     }
 }
   
-/* query for phones */
+/* Query for phones */
 @media screen and (max-width: 575px) {
     .title {
       width: 95%;

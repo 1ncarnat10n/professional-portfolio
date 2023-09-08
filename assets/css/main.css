@@ -229,9 +229,8 @@ section {
     opacity: 75%;
 }
 
-/* Project 1 */
-.project-1 {
-    background-image: url("../images/coming-soon.jpg");
+.password-generator {
+    background-image: url("../images/03-javascript-homework-demo.png");
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -241,7 +240,7 @@ section {
     position: relative; 
 }
 
-.project-1:hover {
+.password-generator:hover {
     opacity: 75%;
 }
 

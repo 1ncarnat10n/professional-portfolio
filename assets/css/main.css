@@ -231,7 +231,7 @@ section {
 
 /* Password Generator Project */
 .password-generator {
-    background-image: url("../images/coming-soon.jpg");
+    background-image: url("../images/03-javascript-homework-demo.png");
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -245,9 +245,9 @@ section {
     opacity: 75%;
 }
 
-/* Project 2 */
-.project-2 {
-    background-image: url("../images/coming-soon.jpg");
+/* Code Quiz Project */
+.code-quiz {
+    background-image: url("../images/code-quiz.png");
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -257,7 +257,7 @@ section {
     position: relative; 
 }
 
-.project-2:hover {
+.code-quiz:hover {
     opacity: 75%;
 }
 

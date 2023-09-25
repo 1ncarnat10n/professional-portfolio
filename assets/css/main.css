@@ -261,9 +261,9 @@ section {
     opacity: 75%;
 }
 
-/* Project 3 */
-.project-3 {
-    background-image: url(../images/coming-soon.jpg);
+/* Work Day Scheduler Project */
+.work-day-scheduler {
+    background-image: url(../images/05-third-party-apis-homework-demo.gif);
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -273,7 +273,7 @@ section {
     position: relative; 
 }
 
-.project-3:hover {
+.work-day-scheduler:hover {
     opacity: 75%;
 }
 

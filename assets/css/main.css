@@ -198,9 +198,9 @@ section {
     width: 100%;
 }
 
-/* Horiseon Project */
-.horiseon {
-    background-image: url(../images/01-html-css-git-homework-demo.png);
+/* Bookies Bank Project */
+.bookies-bank {
+    background-image: url(../images/bookies-bank_720.png);
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -209,7 +209,7 @@ section {
     position: relative;
 }
 
-.horiseon:hover {
+.bookies-bank:hover {
     opacity: 75%;
 }
 
